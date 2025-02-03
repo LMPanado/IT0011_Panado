@@ -6,7 +6,7 @@ crs = input("Enter your course: ")
 
 formatted = f"Last Name: {lname}\nFirst Name: {fname}\nAge: {age}\nContact Number: {contact}\nCourse: {crs}\n"
 
-f = open("TFA1/students.txt", "a")
+f = open("TFA2/students.txt", "a")
 f.write(formatted)
 f.close()
 
