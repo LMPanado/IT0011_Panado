@@ -1,0 +1,5 @@
+f = open("TFA2/students.txt", "r")
+line = f.read()
+print("Reading student information...")
+print(line)
+f.close()
